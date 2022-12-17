@@ -13,11 +13,10 @@ int count(int gyak[],int m)
 
 int main()
 {
-    int n,m,k,gyak[1001]={0},sum,a[100001];
+    int n,m,k,gyak[1001]={0},sum,a[100001],le;
     cin >> n >> m >> k;
     for(int i=1;i<=n;i++)
         cin >> a[i];
-    int x,le,ri;
     le=a[1];
     for(int i=1;i<=k;i++)
     {
