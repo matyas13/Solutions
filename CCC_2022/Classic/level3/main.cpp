@@ -22,7 +22,7 @@ void beolvas()
         for(int j=1;j<=n;j++)
             fin>> a[i][j];
     fin >> px >> py >> lepes_szam ;
-    fin>>pac;
+    fin >> pac;
     fin >> ghostcnt;
     for(int i=0;i<ghostcnt;i++)
     {
