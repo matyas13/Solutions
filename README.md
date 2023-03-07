@@ -1,4 +1,3 @@
-# Solutions
 
 codeforces solutions
 
