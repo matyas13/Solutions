@@ -9,8 +9,6 @@ ofstream fout("level3_5.out");
 
 int two_left=-2, two_right=2, up=-1, down=1, one_left=-1, one_right=1;
 
-//cout << 3;
-
 bool can_escape(char a[][300], int i, int j, int len, int n){
 	//right
 	int x=i, y=j+two_right;
@@ -79,15 +77,9 @@ void solve(){
 		n++;
 		fin.getline(a[n],300);
 	}
-	/*
 	
-	for(int i=0; i<n; i++){
-		for(int j=0; j<len; j++){
-			cout << a[i][j];
-		}
-		cout << '\n';
-	}*/
 	int len=strlen(a[0]);
+	
 	for(int i=1; i<n; i++){
 		for(int j=1; j<len; j++){
 			if(a[i][j]=='W'){

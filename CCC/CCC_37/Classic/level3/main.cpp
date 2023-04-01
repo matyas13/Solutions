@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <deque>
 
 using namespace std;
 
@@ -11,7 +10,6 @@ void solve(int n){
 	char nouse;
 	int R, P, S;
 	fin >> R >> nouse >> P >> nouse >> S >> nouse;
-	string a("");
 	while(R>=3){
 		fout << "RRRP";
 		R-=3;

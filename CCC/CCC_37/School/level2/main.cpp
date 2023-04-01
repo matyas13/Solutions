@@ -40,15 +40,9 @@ void solve(){
 		n++;
 		fin.getline(a[n],300);
 	}
-	/*
-	
-	for(int i=0; i<n; i++){
-		for(int j=0; j<len; j++){
-			cout << a[i][j];
-		}
-		cout << '\n';
-	}*/
+
 	int len=strlen(a[0]);
+	
 	for(int i=1; i<n; i++){
 		for(int j=1; j<len; j++){
 			if(a[i][j]=='W'){
