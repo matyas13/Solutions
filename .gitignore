@@ -43,5 +43,6 @@
 # generated directories
 bin/
 obj/
+.vscode
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,codeblocks
