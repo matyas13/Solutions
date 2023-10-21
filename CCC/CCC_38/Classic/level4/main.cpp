@@ -70,7 +70,6 @@ int main() {
 		bool felt=false;
 		int jx=x2;
 		int jy=y2;
-		int minx, miny;
 		while(!felt) {
 			int jelen=ertekek[jx][jy];
 			for(int k=0; k<8; k++) {
