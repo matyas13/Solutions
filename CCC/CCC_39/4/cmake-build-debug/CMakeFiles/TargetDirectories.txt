@@ -1,0 +1,3 @@
+D:/Github/Solutions/CCC/CCC_39/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+D:/Github/Solutions/CCC/CCC_39/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github/Solutions/CCC/CCC_39/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
